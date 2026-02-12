@@ -13201,7 +13201,7 @@ function warzones.newTargetId()
     return warzones.war_config.targetId
 end
 
--- Ransomize SADL
+-- Randomize SADL
 function warzones.randomizeSADL(grp)
     local airKey = math.random(20, 50)
     local gateway = math.random(20, 50)
