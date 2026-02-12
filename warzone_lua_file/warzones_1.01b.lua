@@ -13203,8 +13203,8 @@ end
 
 -- Ransomize SADL
 function warzones.randomizeSADL(grp)
-    local airKey = math.random(1, 50)
-    local gateway = math.random(1, 50)
+    local airKey = math.random(20, 50)
+    local gateway = math.random(20, 50)
     for _, u in pairs(grp.units) do
         if u.datalinks and u.datalinks.SADL then
             u.datalinks.SADL.settings.AirKey = airKey
